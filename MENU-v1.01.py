@@ -1,5 +1,10 @@
+def counter():
+    a = 1
+    while a < 50:
+     print("\n")
+     a = a + 1
 def menu():
-  print("MENU v1.01")
+  print("MENU v1.02")
   print("""
   Function1:              Function6: 
   Function2:              Function7: 
@@ -45,103 +50,64 @@ def menu():
 def Function1():
     print("---Function1---")
     x = input("Input1: ")
-    a = 1
-    while a < 50:
-     print("\n")
-     a = a + 1
-
+    counter()
     menu()
 
 def Function2():
     print("---Function2---")
     x = input("Input2: ")
-    a = 1
-    while a < 50:
-     print("\n")
-     a = a + 1
-
+    counter()
     menu()
 
 def Function3():
     print("---Function3---")
     x = input("Input3: ")
-    a = 1
-    while a < 50:
-     print("\n")
-     a = a + 1
-
+    counter()
     menu()
 
 def Function4():
     print("---Function4---")
     x = input("Input4: ")
-    a = 1
-    while a < 50:
-     print("\n")
-     a = a + 1
-
+    counter()
     menu()
 
 def Function5():
     print("---Function5---")
     x = input("Input5: ")
-    a = 1
-    while a < 50:
-     print("\n")
-     a = a + 1
-
+    counter()
     menu()
 
 def Function6():
     print("---Function6---")
     x = input("Input6: ")
-    a = 1
-    while a < 50:
-     print("\n")
-     a = a + 1
-
+    counter()
     menu()
 
 def Function7():
     print("---Function7---")
     x = input("Input7: ")
-    a = 1
-    while a < 50:
-     print("\n")
-     a = a + 1
-
+    counter()
     menu()
 
 def Function8():
     print("---Function8---")
     x = input("Input8: ")
-    a = 1
-    while a < 50:
-     print("\n")
-     a = a + 1
-
+    counter()
     menu()
 
 def Function9():
     print("---Function9---")
     x = input("Input9: ")
-    a = 1
-    while a < 50:
-     print("\n")
-     a = a + 1
-
+    counter()
     menu()
 
 def Function10():
     print("---Function10---")
     x = input("Input10: ")
-    a = 1
-    while a < 50:
-     print("\n")
-     a = a + 1
+
 
     menu()
 
-############################Starter######################################
+############################starter######################################
 
 menu()
